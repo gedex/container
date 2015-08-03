@@ -217,9 +217,9 @@ class CircularList
     {
         if ($this->cursor !== null && is_callable($callback)) {
             $el = $this->cursor;
-            $callback($el->getValue());
+            call_user_func($callback, $el->getValue());
             for ($el = $el->getNext(); $el !== $this->cursor; $el = $el->getNext()) {
-                $callback($el->getValue());
+                call_user_func($callback, $el->getValue());
             }
         }
     }
