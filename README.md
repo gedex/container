@@ -2,7 +2,7 @@ Container
 =========
 
 [![Build Status](https://travis-ci.org/gedex/container.png?branch=master)](https://travis-ci.org/gedex/container)
-[![Coverage Status](https://coveralls.io/repos/gedex/container/badge.png?branch=master)](https://coveralls.io/r/gedex/container?branch=master)
+[![Coverage Status](https://coveralls.io/repos/gedex/container/badge.svg?branch=master&service=github)](https://coveralls.io/github/gedex/container?branch=master)
 
 Library for various data structure and its operations.
 
