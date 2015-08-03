@@ -1,6 +1,8 @@
 Container
 =========
 
+[![Build Status](https://travis-ci.org/gedex/container.png?branch=master)](https://travis-ci.org/gedex/container)
+
 Library for various data structure and its operations.
 
 ## Examples
