@@ -1,0 +1,24 @@
+{
+    "name": "gedex/container",
+    "description": "Library for various data structure and its operations",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "4.7.7",
+        "satooshi/php-coveralls": "0.6.1"
+    },
+    "require": {
+        "php": ">=5.3.3"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Akeda Bagus",
+            "email": "admin@gedex.web.id"
+        }
+    ],
+    "autoload": {
+        "psr-0": {
+            "Gedex\\Container": "src"
+        }
+    }
+}
